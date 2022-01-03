@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header Css Start */
+.header{
+    width: 100vw;
+    height: 70px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:pink 0px 5px 15px;
+}
+.header .navbar ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.header .navbar ul li{
+    margin: 0px 10px;
+    padding: 5px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(51, 153, 59);
+}
+/* Header Css End */
